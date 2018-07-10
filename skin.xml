@@ -1,0 +1,173 @@
+<skin marginleft="0" marginright="0" margintop="0" marginbottom="0" ><element x="17" y="378" anchor="0" width="684" height="111" id="Rectangle 1" visible="0" alpha="0" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="rectangle" bordercolor="0x000000" borderalpha="1" backgroundcolor="0x9f9f9f" backgroundalpha="1" backgroundvisible="1" borderwidth="1" borderradius="0" >
+</element>
+<element x="-237" y="-83" anchor="7" width="141" height="22" id="map_text" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Mapa" align="1" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="38" y="-83" anchor="7" width="141" height="22" id="music_text" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Sonido On/Off" align="1" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="98" y="-83" anchor="7" width="141" height="22" id="fullscreen_text" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Pantalla Completa" align="1" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="-17" y="-83" anchor="7" width="141" height="22" id="about_text" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Segu&#237;nos!" align="1" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="-134" y="-83" anchor="7" width="141" height="22" id="zoomout_text" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Alejar" align="1" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="-183" y="-83" anchor="7" width="141" height="22" id="zoomin_text" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Acercar" align="1" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="-72" y="-83" anchor="7" width="141" height="22" id="menusm_text" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Ocultar Men&#250;" align="1" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="-72" y="-83" anchor="7" width="141" height="22" id="menu_text" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Mostrar Men&#250;" align="1" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="-22" y="-55" anchor="7" width="45" height="45" id="menu" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/menu.png" >
+<action src="enter" type="changescale" value="1.05/1.05" value2="" target="$self" />
+<action src="leave" type="changescale" value="1/1" value2="" target="$self" />
+<action src="click" type="changeposition" value="0/-60" value2="" target="Container 1" />
+<action src="click" type="changeposition" value="0/60" value2="" target="toggle_gyro" />
+<action src="click" type="changeposition" value="0/60" value2="" target="$self" />
+<action src="click" type="changealpha" value="1" value2="" target="menu_sm" />
+<action src="click" type="changealpha" value="0" value2="" target="$self" />
+<action src="enter" type="show" value="" value2="" target="menu_text" />
+<action src="leave" type="hide" value="" value2="" target="menu_text" />
+</element>
+<element x="-319" y="2" anchor="7" width="638" height="61" id="Container 1" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="container" mask="0" >
+<element x="436" y="-1" anchor="0" width="40" height="40" id="fullscreen" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/fullscreen.png" >
+<action src="enter" type="changescale" value="1.05/1.05" value2="" target="$self" />
+<action src="leave" type="changescale" value="1/1" value2="" target="$self" />
+<action src="click" type="enterfullscreen" value="" value2="" target="" />
+<action src="enter" type="show" value="" value2="" target="fullscreen_text" />
+<action src="leave" type="hide" value="" value2="" target="fullscreen_text" />
+<action src="click" type="hide" value="" value2="" target="$self" />
+<action src="click" type="show" value="" value2="" target="exitfullscreen" />
+</element>
+<element x="436" y="-1" anchor="0" width="40" height="40" id="exitfullscreen" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/exitfullscreen.png" >
+<action src="enter" type="changescale" value="1.05/1.05" value2="" target="$self" />
+<action src="leave" type="changescale" value="1/1" value2="" target="$self" />
+<action src="click" type="exitfullscreen" value="" value2="" target="" />
+<action src="enter" type="show" value="" value2="" target="fullscreen_text" />
+<action src="leave" type="hide" value="" value2="" target="fullscreen_text" />
+<action src="click" type="hide" value="" value2="" target="$self" />
+<action src="click" type="show" value="" value2="" target="fullscreen" />
+</element>
+<element x="391" y="-1" anchor="0" width="40" height="40" id="sonido_on" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/sonido_on.png" >
+<action src="enter" type="changescale" value="1.05/1.05" value2="" target="$self" />
+<action src="leave" type="changescale" value="1/1" value2="" target="$self" />
+<action src="enter" type="show" value="" value2="" target="music_text" />
+<action src="leave" type="hide" value="" value2="" target="music_text" />
+<action src="click" type="hide" value="" value2="" target="$self" />
+<action src="click" type="show" value="" value2="" target="sonido_off" />
+<action src="click" type="setvolume" value="8" value2="" target="_background" />
+</element>
+<element x="392" y="-1" anchor="0" width="40" height="40" id="sonido_off" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/sonido_off.png" >
+<action src="enter" type="changescale" value="1.05/1.05" value2="" target="$self" />
+<action src="leave" type="changescale" value="1/1" value2="" target="$self" />
+<action src="enter" type="show" value="" value2="" target="music_text" />
+<action src="leave" type="hide" value="" value2="" target="music_text" />
+<action src="click" type="hide" value="" value2="" target="$self" />
+<action src="click" type="show" value="" value2="" target="sonido_on" />
+<action src="click" type="setvolume" value="0" value2="" target="_background" />
+</element>
+<element x="345" y="-1" anchor="0" width="40" height="40" id="about" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/about.png" >
+<action src="enter" type="changescale" value="1.05/1.05" value2="" target="$self" />
+<action src="leave" type="changescale" value="1/1" value2="" target="$self" />
+<action src="enter" type="show" value="" value2="" target="about_text" />
+<action src="leave" type="hide" value="" value2="" target="about_text" />
+<action src="click" type="gotourl" value="https://www.facebook.com/Espacio-Alumin%C3%A9-993292694071630/" value2="_blank" target="_blank" />
+</element>
+<element x="254" y="-1" anchor="0" width="40" height="40" id="zoomout" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/zoomout.png" >
+<action src="enter" type="changescale" value="1.05/1.05" value2="" target="$self" />
+<action src="leave" type="changescale" value="1/1" value2="" target="$self" />
+<action src="pressed" type="zoomout" value="0,5" value2="" target="" />
+<action src="enter" type="show" value="" value2="" target="zoomout_text" />
+<action src="leave" type="hide" value="" value2="" target="zoomout_text" />
+</element>
+<element x="212" y="-1" anchor="0" width="40" height="40" id="zoomin" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/zoomin.png" >
+<action src="enter" type="changescale" value="1.05/1.05" value2="" target="$self" />
+<action src="leave" type="changescale" value="1/1" value2="" target="$self" />
+<action src="pressed" type="zoomin" value="0,5" value2="" target="" />
+<action src="enter" type="show" value="" value2="" target="zoomin_text" />
+<action src="leave" type="hide" value="" value2="" target="zoomin_text" />
+</element>
+<element x="165" y="-1" anchor="0" width="40" height="40" id="map" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/map.png" >
+<action src="enter" type="changescale" value="1.05/1.05" value2="" target="$self" />
+<action src="leave" type="changescale" value="1/1" value2="" target="$self" />
+<action src="enter" type="show" value="" value2="" target="map_text" />
+<action src="leave" type="hide" value="" value2="" target="map_text" />
+<action src="click" type="toogleposition" value="310/0" value2="" target="mapa" />
+</element>
+<element x="303" y="1" anchor="0" width="36" height="36" id="menu_sm" visible="1" alpha="0" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/menu_sm.png" >
+<action src="enter" type="changescale" value="1.05/1.05" value2="" target="$self" />
+<action src="leave" type="changescale" value="1/1" value2="" target="$self" />
+<action src="click" type="changeposition" value="0/0" value2="" target="Container 1" />
+<action src="click" type="changeposition" value="0/0" value2="" target="toggle_gyro" />
+<action src="click" type="changeposition" value="0/0" value2="" target="menu" />
+<action src="click" type="changealpha" value="1" value2="" target="menu" />
+<action src="click" type="changealpha" value="0" value2="" target="$self" />
+<action src="enter" type="show" value="" value2="" target="menusm_text" />
+<action src="leave" type="hide" value="" value2="" target="menusm_text" />
+</element>
+</element>
+<element x="-310" y="-243" anchor="3" width="215" height="467" id="mapa" visible="1" alpha="0.9" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="rectangle" bordercolor="0xffffff" borderalpha="1" backgroundcolor="0xd5e2dc" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="10" >
+<element x="266" y="-17" anchor="0" width="59" height="59" id="cerrar-mapa" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/cerrarmapa.png" >
+<action src="click" type="changeposition" value="0/0" value2="" target="mapa" />
+<action src="enter" type="changescale" value="1.05/1.05" value2="" target="$self" />
+<action src="leave" type="changescale" value="1/1" value2="" target="$self" />
+</element>
+<element x="5" y="6" anchor="0" width="270" height="485" id="texto-mapa" visible="1" alpha="0.8" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="&lt;div id=&quot;mapdiv&quot; style=&quot;width:270px; height:480px&quot;&gt;map goes here!&lt;/div&gt;" align="1" color="0xffffff" bordercolor="0xffffff" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="1" borderwidth="3" borderradius="7" wordwrap="0" scrollbar="0" autosize="0" >
+<action src="enter" type="changealpha" value="1" value2="" target="$self" />
+<action src="leave" type="changealpha" value="0,8" value2="" target="$self" />
+</element>
+</element>
+<element x="-100" y="-55" anchor="4" width="210" height="60" id="loading" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="container" mask="0" >
+<action src="click" type="hide" value="" value2="" target="$self" />
+<action src="loaded" type="hide" value="" value2="" target="$self" />
+<action src="reload" type="show" value="" value2="" target="$self" />
+<element x="0" y="0" anchor="0" width="210" height="60" id="loadingbg" visible="1" alpha="0.5" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="rectangle" bordercolor="0x000000" borderalpha="1" backgroundcolor="0x000000" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="20" >
+</element>
+<element x="0" y="0" anchor="0" width="210" height="60" id="loadingbrd" visible="1" alpha="0.5" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="rectangle" bordercolor="0xffffff" borderalpha="1" backgroundcolor="0x3e3e3e" backgroundalpha="1" backgroundvisible="0" borderwidth="2" borderradius="18" >
+</element>
+<element x="16" y="12" anchor="0" width="178" height="23" id="loadingtext" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="3" handcursor="0" type="text" text="Loading... $p%" align="0" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="1" >
+</element>
+<element x="18" y="40" anchor="0" width="182" height="13" id="loadingbar" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="3" handcursor="0" type="rectangle" bordercolor="0x808080" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="1" borderwidth="1" borderradius="9" >
+<modifier src="loading" type="scalex" offset="0" factor="1" />
+</element>
+</element>
+<element x="320" y="85" anchor="0" width="5" height="5" id="Hotspot 1" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="hotspot" distort="0" distance="500" >
+<element x="-39" y="-25" anchor="0" width="65" height="71" id="enter_nextpano" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/enter_nextpano.png" >
+<action src="leave" type="show" value="" value2="" target="next_pano" />
+<action src="leave" type="hide" value="" value2="" target="$self" />
+<action src="click" type="gotonext" value="$hu" value2="$ht" target="$ht" />
+</element>
+<element x="-34" y="-25" anchor="0" width="50" height="62" id="next_pano" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/next_pano.png" >
+<action src="enter" type="hide" value="" value2="" target="$self" />
+<action src="leave" type="show" value="" value2="" target="enter_nextpano" />
+</element>
+</element>
+<element x="-31" y="11" anchor="1" width="49" height="28" id="toggle_gyro" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="container" mask="0" >
+<element x="-16" y="-59" anchor="1" width="45" height="45" id="gyro_off" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/gyro_off.png" >
+<action src="enter" type="changescale" value="1.05/1.05" value2="" target="$self" />
+<action src="leave" type="changescale" value="1/1" value2="" target="$self" />
+<action src="enter" type="show" value="" value2="" target="gyrooff_text" />
+<action src="leave" type="hide" value="" value2="" target="gyrooff_text" />
+<action src="click" type="gotourl" value="javascript:gyro.disable();" value2="" target="" />
+<action src="reload" type="gotourl" value="javascript:gyro.disable();" value2="" target="" />
+<action src="click" type="show" value="" value2="" target="gyro_on" />
+<action src="click" type="hide" value="" value2="" target="$self" />
+</element>
+<element x="-16" y="-59" anchor="1" width="45" height="45" id="gyro_on" visible="1" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="1" type="button" btnurl="images/gyro_on.png" >
+<action src="enter" type="changescale" value="1.05/1.05" value2="" target="$self" />
+<action src="leave" type="changescale" value="1/1" value2="" target="$self" />
+<action src="enter" type="show" value="" value2="" target="gyro_text" />
+<action src="leave" type="hide" value="" value2="" target="gyro_text" />
+<action src="click" type="gotourl" value="javascript:gyro.enable();" value2="" target="" />
+<action src="reload" type="gotourl" value="javascript:gyro.disable();" value2="" target="" />
+<action src="click" type="hide" value="" value2="" target="$self" />
+<action src="click" type="show" value="" value2="" target="gyro_off" />
+</element>
+<element x="-136" y="-35" anchor="7" width="281" height="22" id="gyrooff_text" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Control Manual" align="1" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+<element x="-136" y="-35" anchor="7" width="281" height="22" id="gyro_text" visible="0" alpha="1" angle="0" scalex="1" scaley="1" center="4" handcursor="0" type="text" text="Activar Giroscopio" align="1" color="0xffffff" bordercolor="0x000000" borderalpha="1" backgroundcolor="0xffffff" backgroundalpha="1" backgroundvisible="0" borderwidth="0" borderradius="0" wordwrap="0" scrollbar="0" autosize="0" >
+</element>
+</element>
+<element x="-160" y="-239" anchor="4" width="320" height="479" id="splash" visible="1" alpha="1" angle="0" scalex="0.9" scaley="0.9" center="4" handcursor="0" type="image" imgurl="images/splash.png" >
+<action src="click" type="changealpha" value="0" value2="" target="$self" />
+<action src="click" type="show" value="" value2="" target="menu" />
+</element>
+</skin>
