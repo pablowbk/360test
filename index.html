@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,18 +12,39 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
 </head>
-<body>
-  <main>
-    <h1>WBK360</h1>
-    <h2>Virtual Tours</h2>
-  </main>
 
-  <section id="examples">
+<body>
+  <header id="home">
+    <h1>WBK360</h1>
+    <h2><span>V</span>irtual <span>T</span>ours</h2>
+  </header>
+<nav id="nav-bar">
+  <ul id="nav-bar-list">
+    <a href="#home"><li>Home</li></a>
+    <a href="#explore"><li>Explore</li></a>
+    <a href="#contact"><li>Contact</li></a>
+  </ul>
+</nav>
+  <section id="explore">
+    <div><h2>Explore</h2></div>
     <iframe class="alumine" src="alumine/alumine.html"></iframe>
   </section>
 
-  <script type="text/javascript" src="assets/js/script.js">
+  <section id="contact">
+    <h2>Contact</h2>
+  </section>
 
+  <footer>
+    footer goes here
+    <div class="social-links">
+      <div class="fb"></div>
+      <div class="ig"></div>
+      <div class="email"></div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="assets/js/script.js">
   </script>
 </body>
+
 </html>
