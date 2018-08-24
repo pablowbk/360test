@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(45deg, rgb(227, 227, 227), rgb(117, 117, 117));
+}
+
+main {
+  height: 100vh;
+  margin: 0 auto;
+  top: 50%;
+  left: 50%;  
+}
+
+iframe {
+  border: 5px;
+}
