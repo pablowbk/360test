@@ -2,57 +2,65 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>WBK 360 | Virtual Tours</title>
-    <!--css files -->
-    <link rel="stylesheet" href="assets/css/style.css">
-    <!--google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WBK 360 | Virtual Tours</title>
+  <!--css files -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!--google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black" rel="stylesheet">
 </head>
 
 <body>
-    <header id="home">
-        <h1>WBK360</h1>
-        <h2><span>V</span>irtual <span>T</span>ours</h2>
-    </header>
-    <nav id="nav-bar">
-        <ul id="nav-bar-list">
-            <a href="#home">
-                <li>Home</li>
-            </a>
-            <a href="#explore">
-                <li>Explore</li>
-            </a>
-            <a href="#contact">
-                <li>Contact</li>
-            </a>
-        </ul>
-    </nav>
-    <section id="explore">
-        <div>
-            <h2>Explore</h2>
-        </div>
-        <iframe class="alumine" src="alumine/alumine.html"></iframe>
-    </section>
+  <header id="home">
+    <h1>WBK360</h1>
+    <h2><span>V</span>irtual <span>T</span>ours</h2>
+  </header>
+  <nav id="nav-bar">
+    <ul id="nav-bar-list">
+      <a href="#home">
+        <li class="home-btn">Home</li>
+      </a>
+      <a href="#explore">
+        <li class="explore-btn">Explore</li>
+      </a>
+      <a href="#contact">
+        <li class="contact-btn">Contact</li>
+      </a>
+    </ul>
+  </nav>
+  <section id="explore">
+    <div>
+      <h2>Explore</h2>
+    </div>
+    <iframe class="tour-embed" src="alumine/alumine.html"></iframe>
+  </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-    </section>
+  <section id="contact">
+    <h2>Contact</h2>
+      <form id="form" class="form-wrapper" action="">
+        <!--<label for="name">Name</label>-->
+        <input id="name" type="text" name="name" placeholder="Nombre" required> <br>
+        <!--<label for="email">Email</label>-->
+        <input id="email" type="email" name="email" placeholder="Email" required> <br>
+        <textarea name="message" form="form" placeholder="Dejanos un mensaje y nos podremos en contacto a la brevedad."></textarea>
+        <input type="submit" id="submit" value="Enviar">
+      </form>
+  </section>
 
-    <footer>
-        footer goes here
-        <div class="social-links">
-            <div class="fb"></div>
-            <div class="ig"></div>
-            <div class="email"></div>
-        </div>
-    </footer>
+  <footer>
+    footer goes here
+    <div class="social-links">
+      <div class="fb"></div>
+      <div class="ig"></div>
+      <div class="email"></div>
+    </div>
+  </footer>
 
-    <script type="text/javascript" src="assets/js/script.js">
-    </script>
+  <script type="text/javascript" src="assets/js/script.js">
+  </script>
 </body>
 
 </html>

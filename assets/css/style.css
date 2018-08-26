@@ -4,6 +4,7 @@ body {
   margin: 0 auto;
 }
 
+/* NAV LAYOUT START*/
 nav {
   position: fixed;
   top: 0px;
@@ -18,23 +19,34 @@ nav {
 nav ul {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   list-style-type: none;
   padding: 0px;
-  max-width: 960px;
 }
 
 nav ul li {
-  margin: 5px auto;
+  margin: 0 auto;
   padding: 20px 30px;
   background-color: #eee;
   color: #9199cc;
+  flex: 1 1 auto;
 }
 
 nav ul li:hover {
   background-color: #97cf93;
   color: #eee;
 }
+
+.home-btn {
+  border-radius: 10px 0 0 10px;
+}
+
+.contact-btn {
+  border-radius: 0 10px 10px 0;
+}
+
+/* NAV LAYOUT END*/
+
 
 a {
   text-decoration: none;
@@ -72,13 +84,18 @@ header h2 span {
   padding-top: 91px;
 }
 
-.alumine {
+.tour-embed {
   padding: -20px;
   margin: 0 auto;
   height: calc(100vh - 200px);
   width: 100%;
   border: none;
   box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.2);
+  flex: 1;
+}
+
+#explore iframe {
+  min-height: 500px;
 }
 
 #contact {
@@ -87,13 +104,76 @@ header h2 span {
   text-align: center;
 }
 
+.form-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /*background-color: rgba(145, 153, 204, 0.55);*/
+  text-align: center;
+  margin: 0 auto;
+}
+
+form #name,
+form #email {
+  font-weight: 600;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+}
+
+form input {
+  display: block;
+  text-align: center;
+  box-shadow: 0 3px 5px 0 rgba(255, 255, 255, 0.5);
+}
+
+
+form textarea {
+  border: none;
+  border-radius: 10px;
+  margin: 0 auto;
+  font-size: 14px;
+  padding: 15px;
+  resize: none;
+  width: 75%;
+  height: 200px;
+  box-shadow: 0 3px 5px 0 rgba(255, 255, 255, 0.5);
+}
+
+form #submit {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #d7ff8c;
+  border: none;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 1.1em;
+}
+
+form #submit:hover {
+  cursor: pointer;
+  color: #8cafff;
+  transform: scale(1.1);
+  transition: 0.5s;
+}
+
+
+
 /* media queries */
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   header {
     flex-direction: column;
   }
   header h1 {
     padding: 0;
+  }
+}
+
+@media (max-width: 350px) {
+  form textarea {
+
   }
 }
