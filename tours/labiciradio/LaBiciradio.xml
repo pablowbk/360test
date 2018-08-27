@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour appversion="6.0 beta" start="node3" apprev="16757">
+  <panorama id="node3" hideabout="1">
+    <input leveltilesize="512" height="2048" overlap="1" leveltileurl="tiles/Entrada_patched2_equi/c%c_l%r_%y_%x.jpg" levelingroll="0" width="2048" levelbias="0.400" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="2048" width="2048" predecode="0" preload="0"/>
+      <level height="1024" width="1024" predecode="0" preload="0"/>
+      <level height="512" width="512" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start pan="271" tilt="-10.5" projection="4" fov="70"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fov="5"/>
+      <max pan="360" fovfisheye="360" tilt="90" fovstereographic="270" scaletofit="1" fov="120"/>
+    </view>
+    <userdata description="Radio La Bici - Recorrido Virtual" customnodeid="" tags="" datetime="" latitude="-34.582397416673835" author="" title="Entrada" longitude="-58.42482089996338" comment="" info="" copyright="WBK360" source=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" wordwrap="1" border="1" textcolor="0xdcdcdc" height="20" background="0" borderradius="1" backgroundcolor="0xffffff" textalpha="1" width="180" bordercolor="0xffffff" enabled="1" backgroundalpha="1"/>
+      <polystyle borderalpha="1" handcursor="1" backgroundcolor="0xc2c2c2" bordercolor="0xdcdcdc" backgroundalpha="0.2509803921568627" mode="2"/>
+      <hotspot pan="-91.82" description="" target="108.2/-17.4/80.0" url="{node2}" tilt="-22.56" id="Point02" title="Salón" skinid="salon"/>
+    </hotspots>
+    <media>
+      <lensflare pan="-281.43" blinding="50" color="0xffffff" tilt="66.8" id="Lensflare01" alpha="80" type="2"/>
+    </media>
+    <transition zoomfov="20" blendtime="1" zoomspeed="2" blendcolor="0x000000" zoomin="0" softedge="20" zoomoutpause="1" zoomout="0" enabled="1" type="crossdissolve"/>
+    <autorotate delay="0.00" noderandom="1" nodedelay="25.00" startloaded="1" enabled="1" speed="0.010" returntohorizon="0.000" useanimation="0"/>
+    <flyintransition enabled="1" speed="4.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control sensitivity="8" speedwheel="1" lockedwheel="0" rubberband="0" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="0" simulatemass="1" hideabout="1" invertwheel="0" contextprojections="1" lockedkeyboard="0" lockedmouse="0" invertcontrol="1"/>
+  </panorama>
+  <panorama id="node2" hideabout="1">
+    <input leveltilesize="512" height="2048" overlap="1" leveltileurl="tiles/salon a_patched/c%c_l%r_%y_%x.jpg" levelingroll="0" width="2048" levelbias="0.400" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="2048" width="2048" predecode="0" preload="0"/>
+      <level height="1024" width="1024" predecode="0" preload="0"/>
+      <level height="512" width="512" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="180" fovmode="0">
+      <start pan="158.5" tilt="-21" projection="4" fov="80"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fov="37"/>
+      <max pan="360" fovfisheye="360" tilt="90" fovstereographic="270" scaletofit="1" fov="120"/>
+    </view>
+    <userdata description="Radio La Bici - Recorrido Virtual" customnodeid="" tags="" datetime="2015:12:21 14:10:05" latitude="-34.5824062498398" author="" title="Salón" longitude="-58.42483162879944" comment="" info="" copyright="WBK360" source=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" wordwrap="1" border="1" textcolor="0xdcdcdc" height="20" background="0" borderradius="1" backgroundcolor="0xffffff" textalpha="1" width="180" bordercolor="0xffffff" enabled="1" backgroundalpha="1"/>
+      <polystyle borderalpha="1" handcursor="1" backgroundcolor="0xc2c2c2" bordercolor="0xdcdcdc" backgroundalpha="0.2509803921568627" mode="2"/>
+      <hotspot pan="-83.54" description="" target="61.1/-16.0/82.2" url="{node3}" tilt="-26.28" id="Point02" title="Entrada" skinid="entrada"/>
+      <hotspot pan="-173.69" description="" target="96.5/-9.0/82.2" url="{node4}" tilt="-8.7" id="Point01" title="Hall" skinid="hall"/>
+    </hotspots>
+    <media>
+      <lensflare pan="-230.83" blinding="40" color="0xffffff" tilt="14.5" id="Lensflare01" alpha="80" type="7"/>
+    </media>
+    <transition zoomfov="20" blendtime="1" zoomspeed="2" blendcolor="0x000000" zoomin="0" softedge="20" zoomoutpause="1" zoomout="0" enabled="1" type="crossdissolve"/>
+    <autorotate delay="0.00" noderandom="1" nodedelay="25.00" startloaded="1" enabled="1" speed="0.010" returntohorizon="0.000" useanimation="0"/>
+    <flyintransition enabled="1" speed="4.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control sensitivity="8" speedwheel="1" lockedwheel="0" rubberband="0" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="0" simulatemass="1" hideabout="1" invertwheel="0" contextprojections="1" lockedkeyboard="0" lockedmouse="0" invertcontrol="1"/>
+  </panorama>
+  <panorama id="node4" hideabout="1">
+    <input leveltilesize="512" height="2048" overlap="1" leveltileurl="tiles/salon b 2_patched_equi/c%c_l%r_%y_%x.jpg" levelingroll="0" width="2048" levelbias="0.400" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="2048" width="2048" predecode="0" preload="0"/>
+      <level height="1024" width="1024" predecode="0" preload="0"/>
+      <level height="512" width="512" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="48.5" fovmode="0">
+      <start pan="96.5" tilt="-9" projection="4" fov="82.2"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fov="5"/>
+      <max pan="360" fovfisheye="360" tilt="90" fovstereographic="270" scaletofit="1" fov="120"/>
+    </view>
+    <userdata description="Radio La Bici - Recorrido Virtual" customnodeid="" tags="" datetime="2015:12:22 09:44:36" latitude="-34.582407353985474" author="" title="Hall" longitude="-58.42482425272465" comment="" info="" copyright="WBK360" source=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" wordwrap="1" border="1" textcolor="0xdcdcdc" height="20" background="0" borderradius="1" backgroundcolor="0xffffff" textalpha="1" width="180" bordercolor="0xffffff" enabled="1" backgroundalpha="1"/>
+      <polystyle borderalpha="1" handcursor="1" backgroundcolor="0xc2c2c2" bordercolor="0xdcdcdc" backgroundalpha="0.2509803921568627" mode="2"/>
+      <hotspot pan="-54.58" description="" target="127.1/-15.8/80.0" url="{node2}" tilt="-17.19" id="Point01" title="Salón" skinid="salon"/>
+      <hotspot pan="-101.31" description="" target="-89.0/-10.5/70.0" url="{node3}" tilt="-19.27" id="Point02" title="Entrada" skinid="entrada"/>
+      <hotspot pan="73.63" description="" target="-27.0/-32.5/84.0" url="{node1}" tilt="-2.9" id="Point03" title="Estudio" skinid="estudio"/>
+    </hotspots>
+    <media>
+      <lensflare pan="-257.12" blinding="50" color="0xffffff" tilt="16.25" id="Lensflare01" alpha="80" type="6"/>
+    </media>
+    <transition zoomfov="20" blendtime="1" zoomspeed="2" blendcolor="0x000000" zoomin="0" softedge="20" zoomoutpause="1" zoomout="0" enabled="1" type="crossdissolve"/>
+    <autorotate delay="0.00" noderandom="1" nodedelay="25.00" startloaded="1" enabled="1" speed="0.010" returntohorizon="0.000" useanimation="0"/>
+    <flyintransition enabled="1" speed="4.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control sensitivity="8" speedwheel="1" lockedwheel="0" rubberband="0" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="0" simulatemass="1" hideabout="1" invertwheel="0" contextprojections="1" lockedkeyboard="0" lockedmouse="0" invertcontrol="1"/>
+  </panorama>
+  <panorama id="node1" hideabout="1">
+    <input leveltilesize="512" height="2048" overlap="1" leveltileurl="tiles/[Group 0]-DSC_3196_DSC_3223-28 equi_patched/c%c_l%r_%y_%x.jpg" levelingroll="0" width="2048" levelbias="0.400" levelingpitch="0" levelbiashidpi="0.400">
+      <level height="2048" width="2048" predecode="0" preload="0"/>
+      <level height="1024" width="1024" predecode="0" preload="0"/>
+      <level height="512" width="512" predecode="1" preload="1"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view pannorth="0" fovmode="0">
+      <start pan="333" tilt="-32.5" projection="4" fov="84"/>
+      <flyin pan="0" tilt="-90" projection="9" fov="170"/>
+      <min pan="0" tilt="-90" fov="46"/>
+      <max pan="360" fovfisheye="360" tilt="90" fovstereographic="270" scaletofit="1" fov="115"/>
+    </view>
+    <userdata description="Radio La Bici - Recorrido Virtual" customnodeid="" tags="" datetime="" latitude="-34.58240845813115" author="" title="Estudio" longitude="-58.42482827603817" comment="" info="" copyright="WBK360" source=""/>
+    <hotspots wordwrap="1" height="20" width="180">
+      <label borderalpha="1" wordwrap="1" border="1" textcolor="0xdcdcdc" height="20" background="0" borderradius="1" backgroundcolor="0xffffff" textalpha="1" width="180" bordercolor="0xffffff" enabled="1" backgroundalpha="1"/>
+      <polystyle borderalpha="1" handcursor="1" backgroundcolor="0xc2c2c2" bordercolor="0xdcdcdc" backgroundalpha="0.2509803921568627" mode="2"/>
+      <hotspot pan="124.03" description="" target="-60.5/-11.5/82.2" url="{node4}" tilt="-12.25" id="Point01" title="Hall" skinid="hall"/>
+    </hotspots>
+    <media>
+      <lensflare pan="-33.38" blinding="50" color="0xffffff" tilt="23.95" id="Lensflare01" alpha="80" type="1"/>
+    </media>
+    <transition zoomfov="20" blendtime="1" zoomspeed="2" blendcolor="0x000000" zoomin="0" softedge="20" zoomoutpause="1" zoomout="0" enabled="1" type="crossdissolve"/>
+    <autorotate delay="0.00" noderandom="1" nodedelay="25.00" startloaded="1" enabled="1" speed="0.010" returntohorizon="0.000" useanimation="0"/>
+    <flyintransition enabled="1" speed="4.00"/>
+    <animation animsequence="Animation01" useinautorotation="0" syncanimationwithvideo="0"/>
+    <control sensitivity="8" speedwheel="1" lockedwheel="0" rubberband="0" lockedkeyboardzoom="0" dblclickfullscreen="0" contextfullscreen="0" simulatemass="1" hideabout="1" invertwheel="0" contextprojections="1" lockedkeyboard="0" lockedmouse="0" invertcontrol="1"/>
+  </panorama>
+  <masternode>
+    <userdata description="Radio La Bici - Recorrido Virtual" customnodeid="" tags="" datetime="" latitude="" author="" title="Radio La Bici" longitude="" comment="" info="" copyright="WBK360" source=""/>
+  </masternode>
+</tour>
