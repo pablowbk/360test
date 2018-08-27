@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="16902" start="node1" appversion="6.0 beta3">
+  <panorama id="node1" hideabout="1">
+    <input leveltilesize="512" levelbiashidpi="0.400" leveltileurl="tiles/Living-Cocina/c%c_l%r_%y_%x.jpg" overlap="1" levelingroll="0" levelingpitch="0" levelbias="0.400" width="2500" height="2500">
+      <level preload="0" width="2500" height="2500" predecode="0"/>
+      <level preload="0" width="1250" height="1250" predecode="0"/>
+      <level preload="1" width="625" height="625" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="12.7068" fovmode="0">
+      <start pan="-1.5" fov="82" projection="4" tilt="-15"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="45" tilt="-90"/>
+      <max pan="360" fov="100" fovstereographic="270" fovfisheye="360" tilt="90" scaletofit="1"/>
+    </view>
+    <userdata title="Living - Cocina" description="" datetime="" source="" longitude="-57.51508743" customnodeid="" copyright="WBK 360" comment="" tags="pb" latitude="-37.85084406" author="WBK 360" info="">
+      <mapcoords x_floorplan_percent="38.81578947368421" y="-1.010279605263158" y_floorplan_percent="78" mapid="FloorPlan01" x="1.091694078947368"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label backgroundcolor="0xffffff" textalpha="1" wordwrap="1" textcolor="0x000000" enabled="1" background="1" bordercolor="0x000000" border="1" width="180" height="20" borderalpha="1" borderradius="1" backgroundalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot pan="-138.349" title="Habitación" description="" id="Point01" url="{node2}" skinid="ht_node" tilt="-9.52" target="-1.6/-20.1/70.0"/>
+    </hotspots>
+    <media>
+      <lensflare pan="-359" id="Lensflare01" type="4" color="0xffffff" blinding="15" tilt="5.85" alpha="30"/>
+    </media>
+    <transition enabled="1" type="crossdissolve" zoomout="0" zoomfov="50" softedge="20" zoomin="0" blendtime="1" zoomoutpause="1" blendcolor="0x000000" zoomspeed="2"/>
+    <autorotate nodedelay="10.00" startloaded="1" noderandom="1" useanimation="0" enabled="1" speed="0.050" returntohorizon="0.000" delay="3.00"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" rubberband="0" invertwheel="0" lockedkeyboard="0" speedwheel="1" dblclickfullscreen="1" sensitivity="8" lockedmouse="0" lockedwheel="0" simulatemass="1" contextprojections="1" hideabout="1" lockedkeyboardzoom="0" contextfullscreen="1">
+      <menulink text="Realizado por WBK360" url="https://www.facebook.com/wbk360"/>
+    </control>
+  </panorama>
+  <panorama id="node2" hideabout="1">
+    <input leveltilesize="512" levelbiashidpi="0.400" leveltileurl="tiles/Habitacion/c%c_l%r_%y_%x.jpg" overlap="1" levelingroll="0" levelingpitch="0" levelbias="0.400" width="2500" height="2500">
+      <level preload="0" width="2500" height="2500" predecode="0"/>
+      <level preload="0" width="1250" height="1250" predecode="0"/>
+      <level preload="1" width="625" height="625" predecode="1"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view pannorth="114.751" fovmode="0">
+      <start pan="5.5" fov="70" projection="4" tilt="-17"/>
+      <flyin pan="0" fov="170" projection="9" tilt="-90"/>
+      <min pan="0" fov="5" tilt="-90"/>
+      <max pan="360" fov="120" fovstereographic="270" fovfisheye="360" tilt="90" scaletofit="1"/>
+    </view>
+    <userdata title="Habitación" description="" datetime="" source="" longitude="-57.51506505" customnodeid="" copyright="WBK 360" comment="" tags="pb" latitude="-37.85087134" author="WBK 360" info="">
+      <mapcoords x_floorplan_percent="60.92105263157895" y="-1.032483552631579" y_floorplan_percent="79.71428571428572" mapid="FloorPlan01" x="1.713404605263158"/>
+    </userdata>
+    <hotspots wordwrap="1" width="180" height="20">
+      <label backgroundcolor="0xffffff" textalpha="1" wordwrap="1" textcolor="0x000000" enabled="1" background="1" bordercolor="0x000000" border="1" width="180" height="20" borderalpha="1" borderradius="1" backgroundalpha="1"/>
+      <polystyle backgroundcolor="0x0000ff" handcursor="1" mode="0" bordercolor="0x0000ff" borderalpha="1" backgroundalpha="0.2509803921568627"/>
+      <hotspot pan="144.415" title="Living - Cocina" description="" id="Point01" url="{node1}" skinid="ht_node" tilt="-8.45" target="4.5/-15.6/82.0"/>
+    </hotspots>
+    <media>
+      <lensflare pan="-251.35" id="Lensflare01" type="6" color="0xffffff" blinding="15" tilt="6.05" alpha="30"/>
+    </media>
+    <transition enabled="1" type="crossdissolve" zoomout="0" zoomfov="50" softedge="20" zoomin="0" blendtime="1" zoomoutpause="1" blendcolor="0x000000" zoomspeed="2"/>
+    <autorotate nodedelay="10.00" startloaded="1" noderandom="1" useanimation="0" enabled="1" speed="0.050" returntohorizon="0.000" delay="3.00"/>
+    <flyintransition enabled="1" speed="2.00"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" useinautorotation="0"/>
+    <control invertcontrol="1" rubberband="0" invertwheel="0" lockedkeyboard="0" speedwheel="1" dblclickfullscreen="1" sensitivity="8" lockedmouse="0" lockedwheel="0" simulatemass="1" contextprojections="1" hideabout="1" lockedkeyboardzoom="0" contextfullscreen="1">
+      <menulink text="Realizado por WBK360" url="https://www.facebook.com/wbk360"/>
+    </control>
+  </panorama>
+  <masternode>
+    <userdata title="Cabaña - Atlántida" description="" datetime="" source="" longitude="-57.515326738357544" customnodeid="" copyright="WBK 360" comment="" tags="" latitude="-37.850738644947356" author="WBK 360" info=""/>
+  </masternode>
+  <map bgcolor="rgba(255, 255, 255, 1)" title="Planta Baja" id="FloorPlan01" type="file" tileformat="jpg" width="760" height="350" floorplannorth="304.98" zoomlevels="1" transparent="0"/>
+</tour>
