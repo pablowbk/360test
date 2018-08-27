@@ -120,6 +120,7 @@ form #email {
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
+  margin-bottom: 10px;
 }
 
 form input {
@@ -138,6 +139,7 @@ form textarea {
   resize: none;
   width: 75%;
   height: 200px;
+  text-align: center;
   box-shadow: 0 3px 5px 0 rgba(255, 255, 255, 0.5);
 }
 
