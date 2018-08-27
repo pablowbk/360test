@@ -207,7 +207,7 @@
 		</noscript>
 <hr>
 <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
-<div id="mapdiv" style="width:700px; height:500px">map goes here!</div>
+
 		
 <script type="text/javascript">
 	var lastFov = -1;
@@ -287,7 +287,7 @@
 		var mapOptions = {
 			zoom: 14,
 			center: activeNodeLatLng,
-			mapTypeId: google.maps.MapTypeId.HYBRID
+			mapTypeId: google.maps.MapTypeId.ROADMAP
 		};
 		map = new google.maps.Map(document.getElementById('mapdiv'), mapOptions);
 		var ids=pano.getNodeIds();
@@ -312,9 +312,6 @@
 					window.location.hash="#" + this.ggId;
 				});
 			}
-		}
-		if (!bounds.isEmpty()) {
-			map.fitBounds(bounds);
 		}
 		setInterval(function() { updateRadar(); }, 50);
   	}
