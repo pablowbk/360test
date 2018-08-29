@@ -5,6 +5,7 @@ body {
 }
 
 /* NAV LAYOUT START*/
+
 nav {
   position: fixed;
   top: 0px;
@@ -27,7 +28,7 @@ nav ul {
 nav ul li {
   margin: 0 auto;
   padding: 20px 30px;
-  background-color: #eee;
+  /*background-color: #eee;*/
   color: #9199cc;
   flex: 1 1 auto;
 }
@@ -37,6 +38,7 @@ nav ul li:hover {
   color: #eee;
 }
 
+/*
 .home-btn {
   border-radius: 10px 0 0 10px;
 }
@@ -46,7 +48,6 @@ nav ul li:hover {
 }
 
 /* NAV LAYOUT END*/
-
 
 a {
   text-decoration: none;
@@ -58,7 +59,6 @@ header {
   height: 100vh;
   justify-content: center;
   align-items: center;
-
 }
 
 header h1 {
@@ -73,6 +73,36 @@ header h2 {
 
 header h2 span {
   color: #666;
+}
+
+#features {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.feat-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 50px 50px;
+}
+
+.feat-box {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-auto-rows: ;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.feat-box img {
+  max-width: 100%;
+  border-radius: 50%;
+}
+
+.feat-box p {
+  text-align: left;
+  padding-left: 25px;
 }
 
 #explore {
@@ -113,8 +143,7 @@ header h2 span {
   margin: 0 auto;
 }
 
-form #name,
-form #email {
+form #name, form #email {
   font-weight: 600;
   font-size: 16px;
   padding: 10px 20px;
@@ -128,7 +157,6 @@ form input {
   text-align: center;
   box-shadow: 0 3px 5px 0 rgba(255, 255, 255, 0.5);
 }
-
 
 form textarea {
   border: none;
@@ -160,15 +188,19 @@ form #submit:hover {
   transition: 0.5s;
 }
 
-
 /*animations / keyframes */
+
 @keyframes logo-flip {
-  0% {transform: rotateY(0deg);}
-  50% {transform: rotateY(35deg);}
-  100% {transform: rotateY(0deg);}
+  0% {
+    transform: rotateY(0deg);
+  }
+  50% {
+    transform: rotateY(35deg);
+  }
+  100% {
+    transform: rotateY(0deg);
+  }
 }
-
-
 
 /* media queries */
 
@@ -182,7 +214,5 @@ form #submit:hover {
 }
 
 @media (max-width: 350px) {
-  form textarea {
-
-  }
+  form textarea {}
 }
